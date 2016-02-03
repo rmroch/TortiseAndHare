@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TortiseControl : MonoBehaviour {
+public class TortoiseControl : MonoBehaviour {
     public float speed = 1.0f;
     public float rotSpeed = 10.0f;
     public Rigidbody2D rb;
