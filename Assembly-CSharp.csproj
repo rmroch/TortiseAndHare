@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{BEA3F20D-248D-F44B-5D70-93782FB300A2}</ProjectGuid>
+	<ProjectGuid>{9AEA00C7-E40B-D507-9EEC-9D3F3B495444}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -48,7 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CannonAnimator.cs" />
      <Compile Include="Assets\Scripts\HareAnimator.cs" />
-     <Compile Include="Assets\Scripts\TortiseControl.cs" />
+     <Compile Include="Assets\Scripts\TortoiseControl.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
