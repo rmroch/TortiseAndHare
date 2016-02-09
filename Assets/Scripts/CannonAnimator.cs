@@ -6,6 +6,8 @@ public class CannonAnimator : MonoBehaviour
 
     public Sprite[] sprites;
     public float framesPerSecond;
+    public GameObject CannonBallPrefab;
+    public float cannonBallSpawnDistance = 10f;
 
     private SpriteRenderer spriteRenderer;
     private bool playing;
@@ -38,8 +40,12 @@ public class CannonAnimator : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            audioSource.PlayOneShot(CannonAudioClip, 0.7F);
             playing = true;
+            audioSource.PlayOneShot(CannonAudioClip, 0.7F);
+
+            Vector3 offset = transform.rotation * new Vector3(0, 0.5f, 0);
+
+            Instantiate(CannonBallPrefab, transform.position + offset, transform.rotation);
         }
     }
 }
