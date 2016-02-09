@@ -8,10 +8,9 @@ public class DamageHandler : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 
-    void OnTriggerEnter2d()
+    void OnTriggerEnter2D()
     {
         Debug.Log("Trigger!");
 

@@ -43,7 +43,7 @@ public class CannonAnimator : MonoBehaviour
             playing = true;
             audioSource.PlayOneShot(CannonAudioClip, 0.7F);
 
-            Vector3 offset = transform.rotation * new Vector3(0, 0.5f, 0);
+            Vector3 offset = transform.rotation * new Vector3(0, 1f, 0);
 
             Instantiate(CannonBallPrefab, transform.position + offset, transform.rotation);
         }
